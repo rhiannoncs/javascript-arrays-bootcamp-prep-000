@@ -45,6 +45,11 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
+function addElementToEndOfArray(array, element) {
+  newArray = [...array, element]
+  return newArray
+}
+
 function accessElementinArray(array, index) {
   return array[index]
 }
