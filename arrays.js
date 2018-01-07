@@ -50,6 +50,11 @@ function addElementToEndOfArray(array, element) {
   return newArray
 }
 
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
+
 function accessElementinArray(array, index) {
   return array[index]
 }
