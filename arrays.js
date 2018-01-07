@@ -36,7 +36,8 @@ var cities = ["New York", "San Francisco"]
 cities = ["Philadelphia", ...cities]
 
 function addElementToBeginningOfArray(array, element) {
-  newArray = array.unshift(element)
+  newArray = array
+  newArray.unshift(element)
   return newArray
 }
 
