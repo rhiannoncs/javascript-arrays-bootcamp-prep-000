@@ -78,5 +78,3 @@ function removeElementFromEndOfArray(array) {
   anotherArray = array.slice(0, array.length - 1)
   return anotherArray
 }
-
-console.log(addElementToBeginningOfArray([1], 'foo'))
