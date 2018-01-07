@@ -59,4 +59,7 @@ function removeElementFromBeginningOfArray(array) {
   return shorterArray
 }
 
-function 
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop()
+  return array
+}
