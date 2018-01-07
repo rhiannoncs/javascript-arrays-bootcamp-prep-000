@@ -58,3 +58,5 @@ function removeElementFromBeginningOfArray(array) {
   shorterArray = array.slice(1)
   return shorterArray
 }
+
+function 
